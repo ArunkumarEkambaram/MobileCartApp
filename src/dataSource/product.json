@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "productName": "Smartphone",
+    "description": "High-end smartphone with advanced features.",
+    "price": 799.99,
+    "rating": 4.6,
+    "addedDate": "2023-08-09T08:00:00Z"
+  },
+  {
+    "id": 2,
+    "productName": "Laptop",
+    "description": "Powerful laptop for work and entertainment.",
+    "price": 999.99,
+    "rating": 4.8,
+    "addedDate": "2023-08-09T09:00:00Z"
+  },
+  {
+    "id": 3,
+    "productName": "Headphones",
+    "description": "Wireless headphones with noise cancellation.",
+    "price": 149.99,
+    "rating": 4.5,
+    "addedDate": "2023-08-09T10:00:00Z"
+  },
+  {
+    "id": 4,
+    "productName": "Smart TV",
+    "description": "Ultra HD smart TV with streaming capabilities.",
+    "price": 699.99,
+    "rating": 4.7,
+    "addedDate": "2023-08-09T11:00:00Z"
+  },
+  {
+    "id": 5,
+    "productName": "Fitness Tracker",
+    "description": "Track your health and fitness goals with this wearable device.",
+    "price": 79.99,
+    "rating": 4.2,
+    "addedDate": "2023-08-09T12:00:00Z"
+  },
+  {
+    "id": 6,
+    "productName": "Coffee Maker",
+    "description": "Brew your favorite coffee with ease.",
+    "price": 49.99,
+    "rating": 4.0,
+    "addedDate": "2023-08-09T13:00:00Z"
+  },
+  {
+    "id": 7,
+    "productName": "Wireless Earbuds",
+    "description": "True wireless earbuds for music and calls.",
+    "price": 129.99,
+    "rating": 4.4,
+    "addedDate": "2023-08-09T14:00:00Z"
+  },
+  {
+    "id": 8,
+    "productName": "Gaming Console",
+    "description": "Next-gen gaming console for immersive gameplay.",
+    "price": 499.99,
+    "rating": 4.9,
+    "addedDate": "2023-08-09T15:00:00Z"
+  },
+  {
+    "id": 9,
+    "productName": "Digital Camera",
+    "description": "Capture memories with high-quality digital photography.",
+    "price": 349.99,
+    "rating": 4.3,
+    "addedDate": "2023-08-09T16:00:00Z"
+  },
+  {
+    "id": 10,
+    "productName": "Tablet",
+    "description": "Portable tablet for work and entertainment on the go.",
+    "price": 299.99,
+    "rating": 4.5,
+    "addedDate": "2023-08-09T17:00:00Z"
+  },
+  {
+    "id": 11,
+    "productName": "Wireless Speaker",
+    "description": "Portable wireless speaker for music and podcasts.",
+    "price": 89.99,
+    "rating": 4.1,
+    "addedDate": "2023-08-09T18:00:00Z"
+  },
+  {
+    "id": 12,
+    "productName": "Smart Watch",
+    "description": "Stay connected and track your health with a smart watch.",
+    "price": 199.99,
+    "rating": 4.7,
+    "addedDate": "2023-08-09T19:00:00Z"
+  },
+  {
+    "id": 13,
+    "productName": "Blender",
+    "description": "Blend smoothies and soups with a high-powered blender.",
+    "price": 69.99,
+    "rating": 4.2,
+    "addedDate": "2023-08-09T20:00:00Z"
+  },
+  {
+    "id": 14,
+    "productName": "External Hard Drive",
+    "description": "Expand your storage with a reliable external hard drive.",
+    "price": 129.99,
+    "rating": 4.4,
+    "addedDate": "2023-08-09T21:00:00Z"
+  },
+  {
+    "id": 15,
+    "productName": "Monitor",
+    "description": "High-resolution monitor for productivity and gaming.",
+    "price": 299.99,
+    "rating": 4.6,
+    "addedDate": "2023-08-09T22:00:00Z"
+  },
+  {
+    "id": 16,
+    "productName": "Vacuum Cleaner",
+    "description": "Efficient vacuum cleaner for a clean home.",
+    "price": 149.99,
+    "rating": 4.3,
+    "addedDate": "2023-08-09T23:00:00Z"
+  },
+  {
+    "id": 17,
+    "productName": "E-book Reader",
+    "description": "Enjoy reading digital books with an e-book reader.",
+    "price": 119.99,
+    "rating": 4.2,
+    "addedDate": "2023-08-10T00:00:00Z"
+  },
+  {
+    "id": 18,
+    "productName": "Dumbbell Set",
+    "description": "Build strength with a versatile dumbbell set.",
+    "price": 89.99,
+    "rating": 4.1,
+    "addedDate": "2023-08-10T01:00:00Z"
+  },
+  {
+    "id": 19,
+    "productName": "Rice Cooker",
+    "description": "Cook perfect rice with a reliable rice cooker.",
+    "price": 59.99,
+    "rating": 4.0,
+    "addedDate": "2023-08-10T02:00:00Z"
+  },
+  {
+    "id": 20,
+    "productName": "Wireless Router",
+    "description": "Fast and reliable wireless router for home networks.",
+    "price": 79.99,
+    "rating": 4.4,
+    "addedDate": "2023-08-10T03:00:00Z"
+  },
+  {
+    "id": 21,
+    "productName": "Desk Chair",
+    "description": "Comfortable desk chair for productive work sessions.",
+    "price": 129.99,
+    "rating": 4.3,
+    "addedDate": "2023-08-10T04:00:00Z"
+  },
+  {
+    "id": 22,
+    "productName": "Blu-ray Player",
+    "description": "Enjoy high-quality entertainment with a Blu-ray player.",
+    "price": 89.99,
+    "rating": 4.1,
+    "addedDate": "2023-08-10T05:00:00Z"
+  },
+  {
+    "id": 23,
+    "productName": "Toaster Oven",
+    "description": "Bake and toast with a convenient toaster oven.",
+    "price": 49.99,
+    "rating": 4.0,
+    "addedDate": "2023-08-10T06:00:00Z"
+  },
+  {
+    "id": 24,
+    "productName": "Electric Toothbrush",
+    "description": "Keep your teeth clean with an electric toothbrush.",
+    "price": 39.99,
+    "rating": 4.2,
+    "addedDate": "2023-08-10T07:00:00Z"
+  },
+  {
+    "id": 25,
+    "productName": "Steam Iron",
+    "description": "Efficiently iron clothes with a steam iron.",
+    "price": 29.99,
+    "rating": 4.1,
+    "addedDate": "2023-08-10T08:00:00Z"
+  },
+  {
+    "id": 26,
+    "productName": "Air Purifier",
+    "description": "Improve indoor air quality with an air purifier.",
+    "price": 149.99,
+    "rating": 4.5,
+    "addedDate": "2023-08-10T09:00:00Z"
+  },
+  {
+    "id": 27,
+    "productName": "Microwave Oven",
+    "description": "Heat and cook food quickly with a microwave oven.",
+    "price": 89.99,
+    "rating": 4.3,
+    "addedDate": "2023-08-10T10:00:00Z"
+  },
+  {
+    "id": 28,
+    "productName": "Cordless Drill",
+    "description": "Complete DIY projects with a cordless drill.",
+    "price": 119.99,
+    "rating": 4.2,
+    "addedDate": "2023-08-10T11:00:00Z"
+  },
+  {
+    "id": 29,
+    "productName": "Portable Charger",
+    "description": "Charge your devices on the go with a portable charger.",
+    "price": 29.99,
+    "rating": 4.0,
+    "addedDate": "2023-08-10T12:00:00Z"
+  },
+  {
+    "id": 30,
+    "productName": "Digital Scale",
+    "description": "Accurately measure ingredients with a digital scale.",
+    "price": 19.99,
+    "rating": 4.1,
+    "addedDate": "2023-08-10T13:00:00Z"
+  },
+  {
+    "id": 31,
+    "productName": "Coffee Grinder",
+    "description": "Grind coffee beans for a fresh cup of coffee.",
+    "price": 39.99,
+    "rating": 4.3,
+    "addedDate": "2023-08-10T14:00:00Z"
+  },
+  {
+    "id": 32,
+    "productName": "Cookware Set",
+    "description": "Complete set of high-quality cookware.",
+    "price": 199.99,
+    "rating": 4.5,
+    "addedDate": "2023-08-10T15:00:00Z"
+  },
+  {
+    "id": 33,
+    "productName": "Air Fryer",
+    "description": "Fry, bake, and roast with an air fryer.",
+    "price": 129.99,
+    "rating": 4.4,
+    "addedDate": "2023-08-10T16:00:00Z"
+  },
+  {
+    "id": 34,
+    "productName": "Waffle Maker",
+    "description": "Make delicious waffles with a waffle maker.",
+    "price": 49.99,
+    "rating": 4.2,
+    "addedDate": "2023-08-10T17:00:00Z"
+  },
+  {
+    "id": 35,
+    "productName": "Handheld Vacuum",
+    "description": "Quickly clean up messes with a handheld vacuum.",
+    "price": 39.99,
+    "rating": 4.1,
+    "addedDate": "2023-08-10T18:00:00Z"
+  },
+  {
+    "id": 36,
+    "productName": "Yoga Mat",
+    "description": "Practice yoga and exercise on a comfortable mat.",
+    "price": 29.99,
+    "rating": 4.0,
+    "addedDate": "2023-08-10T19:00:00Z"
+  },
+  {
+    "id": 37,
+    "productName": "Electric Kettle",
+    "description": "Boil water quickly with an electric kettle.",
+    "price": 24.99,
+    "rating": 4.2,
+    "addedDate": "2023-08-10T20:00:00Z"
+  },
+  {
+    "id": 38,
+    "productName": "Cooking Utensil Set",
+    "description": "Essential utensils for cooking and baking.",
+    "price": 19.99,
+    "rating": 4.1,
+    "addedDate": "2023-08-10T21:00:00Z"
+  },
+  {
+    "id": 39,
+    "productName": "Bluetooth Speaker",
+    "description": "Wireless speaker for music and calls.",
+    "price": 69.99,
+    "rating": 4.3,
+    "addedDate": "2023-08-10T22:00:00Z"
+  },
+  {
+    "id": 40,
+    "productName": "Alarm Clock",
+    "description": "Wake up on time with a reliable alarm clock.",
+    "price": 14.99,
+    "rating": 4.0,
+    "addedDate": "2023-08-10T23:00:00Z"
+  },
+  {
+    "id": 41,
+    "productName": "Candle Set",
+    "description": "Create a cozy atmosphere with scented candles.",
+    "price": 19.99,
+    "rating": 4.1,
+    "addedDate": "2023-08-11T00:00:00Z"
+  },
+  {
+    "id": 42,
+    "productName": "Water Bottle",
+    "description": "Stay hydrated with a reusable water bottle.",
+    "price": 9.99,
+    "rating": 4.0,
+    "addedDate": "2023-08-11T01:00:00Z"
+  },
+  {
+    "id": 43,
+    "productName": "Hand Mixer",
+    "description": "Mix ingredients effortlessly with a hand mixer.",
+    "price": 29.99,
+    "rating": 4.2,
+    "addedDate": "2023-08-11T02:00:00Z"
+  },
+  {
+    "id": 44,
+    "productName": "Sewing Machine",
+    "description": "Sew and mend clothing with a versatile sewing machine.",
+    "price": 149.99,
+    "rating": 4.4,
+    "addedDate": "2023-08-11T03:00:00Z"
+  },
+  {
+    "id": 45,
+    "productName": "Shower Speaker",
+    "description": "Listen to music while you shower with a waterproof speaker.",
+    "price": 34.99,
+    "rating": 4.1,
+    "addedDate": "2023-08-11T04:00:00Z"
+  },
+  {
+    "id": 46,
+    "productName": "Backpack",
+    "description": "Carry your belongings in a durable and stylish backpack.",
+    "price": 49.99,
+    "rating": 4.3,
+    "addedDate": "2023-08-11T05:00:00Z"
+  },
+  {
+    "id": 47,
+    "productName": "Plant Pot",
+    "description": "Add greenery to your home with a decorative plant pot.",
+    "price": 14.99,
+    "rating": 4.0,
+    "addedDate": "2023-08-11T06:00:00Z"
+  },
+  {
+    "id": 48,
+    "productName": "Travel Pillow",
+    "description": "Rest comfortably during travel with a soft travel pillow.",
+    "price": 19.99,
+    "rating": 4.2,
+    "addedDate": "2023-08-11T07:00:00Z"
+  },
+  {
+    "id": 49,
+    "productName": "Cooking Thermometer",
+    "description": "Ensure accurate cooking temperatures with a thermometer.",
+    "price": 9.99,
+    "rating": 4.1,
+    "addedDate": "2023-08-11T08:00:00Z"
+  },
+  {
+    "id": 50,
+    "productName": "Foldable Chair",
+    "description": "Provide extra seating with a convenient foldable chair.",
+    "price": 24.99,
+    "rating": 4.0,
+    "addedDate": "2023-08-11T09:00:00Z"
+  }
+]

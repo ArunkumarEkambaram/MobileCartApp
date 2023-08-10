@@ -1,0 +1,33 @@
+<div class="row mt-3">
+  <div class="col-md-6 offset-3">
+    <app-search (searchChange)="onSearchProduct($event)"></app-search>
+  </div>
+</div>
+<div class="row mt-3">
+  <div class="col-md-8 offset-2">
+    <table class="table table-bordered table-hover">
+      <thead>
+        <tr class="table-dark">
+          <th>Id</th>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Rating</th>
+          <th>Added Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let p of products">
+          <ng-container *ngIf="p.productName.toLowerCase().includes(searchedProduct.toLowerCase())">
+            <td>{{ p.id }}</td>
+            <td>{{ p.productName | titlecase }}</td>
+            <td [class]="p.price > 300 ? 'text-danger' : 'text-success'">
+              {{ p.price | currency : "USD" : "symbol" : ".2-2" }}
+            </td>
+            <td>{{ p.rating | number : "1.1-2" }}</td>
+            <td>{{ p.addedDate | date : "dd-MM-yyyy" }}</td>
+          </ng-container>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

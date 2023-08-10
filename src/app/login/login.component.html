@@ -1,0 +1,89 @@
+<div class="row mt-4">
+  <div class="col-md-4 offset-4">
+    <div class="card shadow">
+      <div class="card-header bg-primary text-white">
+        <h3>Login</h3>
+      </div>
+      <div class="card-body">
+        <form #loginForm="ngForm" (ngSubmit)="signIn(loginForm)">
+          <div class="mb-3">
+            <label>User Name</label>
+            <input
+              type="text"
+              class="form-control"
+              #uid="ngModel"
+              name="txtUserName"
+              [(ngModel)]="userName"
+              required
+            />
+            <span
+              class="text-danger small"
+              *ngIf="(uid.touched || loginForm.submitted) && uid.errors?.['required']"
+              >Username is required</span
+            >
+          </div>
+          <div class="mb-3">
+            <label>Password</label>
+            <input
+              type="password"
+              class="form-control"
+              name="txtPassword"
+              #pwd="ngModel"
+              [(ngModel)]="password"
+              required
+            />
+            <span
+              class="text-danger small"
+              *ngIf="(pwd.touched || loginForm.submitted) && pwd.errors?.['required']"
+            >
+              Password is required
+            </span>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">User Type</label>
+            <select
+              name="ddlUserType"
+              class="form-select"
+              [(ngModel)]="userType"
+              #type="ngModel"
+              required
+            >
+              <option value="" selected>--Select--</option>
+              <option value="1">Admin</option>
+              <option value="2">Employee</option>
+              <option value="3">Customer</option>
+            </select>
+            <span
+              class="text-danger small"
+              *ngIf="(type.touched || loginForm.submitted) && type.errors?.['required']"
+            >
+              Please select a User Type
+            </span>
+          </div>
+          <div class="mt-2">
+            <button type="submit" class="btn btn-primary">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Login Success -->
+    <div class="mt-3 shadow">
+      <div *ngIf="isValid">
+        <div class="display-4 text-success p-4">Login Success</div>
+      </div>
+      <!-- Login Failed -->
+      <div *ngIf="isInvalid">
+        <div>
+          <div class="display-4 text-danger p-4">Invalid Credentials</div>
+        </div>
+      </div>
+
+      <div *ngIf="isValid || isInvalid" class="text-center">
+        <button class="btn btn-warning" (click)="isValid = isInvalid = false">
+          Go Back
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
