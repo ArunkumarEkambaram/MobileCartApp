@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="#"
+          <a class="nav-link active" [routerLink]="['']"
             >Home
             <span class="visually-hidden">(current)</span>
           </a>
@@ -27,8 +27,18 @@
           <a class="nav-link" href="#">Tablets</a>
         </li>
       </ul>
-      <button class="btn btn-primary btn-sm me-2" type="submit">Login</button>
-      <button class="btn btn-primary btn-sm" type="submit">Register</button>
+      <a
+        [routerLink]="['login']"
+        class="btn btn-primary btn-sm me-2"
+        type="submit"
+        >Login</a
+      >
+      <a
+        [routerLink]="['register']"
+        class="btn btn-primary btn-sm"
+        type="submit"
+        >Register</a
+      >
     </div>
   </div>
 </nav>

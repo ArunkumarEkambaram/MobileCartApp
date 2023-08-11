@@ -1,1 +1,111 @@
-<p>register works!</p>
+<div class="row mt-3">
+  <div class="col-md-4 offset-4 shadow">
+    <div class="card">
+      <div class="card-header text-center bg-primary text-white">
+        <h3>Registration</h3>
+      </div>
+      <div class="card-body">
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+          <div class="mb-3">
+            <label class="col-form-label">First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              formControlName="firstName"
+              [ngClass]="{
+                error:
+                  (submitted || f['firstName'].touched) &&
+                  getControl('firstName').errors
+              }"
+            />
+            <div *ngIf="submitted && f['firstName'].errors" class="text-danger small">
+              <span *ngIf="f['firstName'].errors?.['required']">First Name is required</span>
+              <span *ngIf="f['firstName'].errors?.['minlength']">First Name should atleast 3 characters</span>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="col-form-label">Last Name</label>
+            <input
+              type="text"
+              class="form-control"
+              formControlName="lastName"
+              [ngClass]="{
+                error:
+                  (submitted || f['lastName'].touched) &&
+                  getControl('lastName').errors
+              }"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="col-form-label">Contact No</label>
+            <input
+              type="text"
+              class="form-control"
+              formControlName="contactNo"
+              [ngClass]="{
+                error:
+                  (submitted || getControl('contactNo').touched) &&
+                  getControl('contactNo').errors
+              }"
+            />
+            <div *ngIf="(submitted || f['contactNo'].touched) && f['contactNo'].errors" class="text-danger small">
+              <span *ngIf="f['contactNo'].errors?.['required']">Contact No is required</span>
+              <span *ngIf="f['contactNo'].errors?.['minlength'] || f['contactNo'].errors?.['maxlength']">Contact No must be 10 digit</span>
+              <span *ngIf="f['contactNo'].errors?.['pattern']">. Please enter valid contact no</span>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="col-form-label">Gender</label>
+            <select class="form-select" formControlName="gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label class="col-form-label">Email Id</label>
+            <input
+              type="email"
+              class="form-control"
+              formControlName="emailId"
+              [ngClass]="{
+                error:
+                  (submitted || getControl('emailId').touched) &&
+                  getControl('emailId').errors
+              }"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="col-form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              formControlName="password"
+              [ngClass]="{
+                error:
+                  (submitted || getControl('password').touched) &&
+                  getControl('password').errors
+              }"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="col-form-label">Confirm Password</label>
+            <input
+              type="password"
+              class="form-control"
+              formControlName="confirmPassword"
+              [ngClass]="{
+                error:
+                  (submitted || getControl('confirmPassword').touched) &&
+                  getControl('confirmPassword').errors
+              }"
+            />
+          </div>
+          <div class="mt-2">
+            <button class="btn btn-primary" type="submit">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
