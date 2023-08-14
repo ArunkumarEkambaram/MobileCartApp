@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { UserService } from '../services/user.service';
 
 @Component({
   selector: 'app-login',
@@ -13,6 +14,8 @@ export class LoginComponent {
 
   isValid: boolean = false;
   isInvalid: boolean = false;
+
+  constructor(private userService: UserService) { }
 
   userData: any[] = [
     { userName: "arun", password: "arun@123" },
@@ -35,6 +38,8 @@ export class LoginComponent {
   // }
 
   signIn(loginForm: NgForm) {
-    console.log(loginForm.value);
+    //console.log(loginForm.value);
+    //console.log(loginForm.controls["txtUserName"].value);
+    this.userService.login(loginForm.control.get("txtUserName")?.value);
   }
 }

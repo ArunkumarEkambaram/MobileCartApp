@@ -11,6 +11,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule  } from "@angular/common/http";
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ErrorComponent } from './shared/error/error.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
+import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +24,12 @@ import { RegisterComponent } from './register/register.component';
     ProductListComponent,
     SearchComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ErrorComponent,
+    AboutComponent,
+    ContactComponent,
+    HomeComponent,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule,

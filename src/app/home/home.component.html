@@ -1,0 +1,18 @@
+<div class="row ms-lg-5 mt-2 mb-4">
+  <ng-container *ngIf="products && products?.length">
+    <div class="col-md-2 m-2 p-2" *ngFor="let product of products; let i = index">
+      <div *ngIf="product" class="img-thumbnail text-center">
+        <div>
+          <img [src]="product.imageUrl" [title]="product.productName" width="100" height="120" style="margin: 12px;">
+        </div>
+        <div>
+          <a [routerLink]="['/products/product',product.id]"> {{product.productName}} </a>
+          <!-- <a routerLink="/products/product/{{product.id}}"> {{product.productName}} </a> -->
+        </div>
+        <div>
+          {{product.price | currency}}
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>

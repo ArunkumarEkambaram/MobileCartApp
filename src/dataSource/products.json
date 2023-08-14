@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "productName": "iPhone 12 Pro",
+    "description": "Apple's flagship smartphone with a stunning Super Retina XDR display and A14 Bionic chip.",
+    "price": 999.99,
+    "imageUrl": "assets/products/iphone12pro.jpeg",
+    "manufacturer": "Apple",
+    "productType": "Mobiles",
+    "rating": 4.8,
+    "addedDate": "2021-03-15T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "productName": "Samsung Galaxy S23",
+    "description": "A high-end Android smartphone with a powerful Exynos 2100/Snapdragon 888 processor and dynamic AMOLED display.",
+    "price": 899.99,
+    "imageUrl": "assets/products/samsung23.jpg",
+    "manufacturer": "Samsung",
+    "productType": "Mobiles",
+    "rating": 4.7,
+    "addedDate": "2023-01-20T09:30:00Z"
+  },
+  {
+    "id": 3,
+    "productName": "Google Pixel 7 Pro",
+    "description": "A flagship Pixel phone with a focus on camera quality and a clean Android experience.",
+    "price": 699.99,
+    "imageUrl": "assets/products/pixel7pro.jpg",
+    "manufacturer": "Google",
+    "productType": "Mobiles",
+    "rating": 4.6,
+    "addedDate": "2023-09-30T11:45:00Z"
+  },
+  {
+    "id": 4,
+    "productName": "OnePlus 11",
+    "description": "A premium OnePlus device featuring a 120Hz Fluid AMOLED display and powerful Snapdragon 865 processor.",
+    "price": 799.99,
+    "imageUrl": "assets/products/OnePlus11.jpg",
+    "manufacturer": "OnePlus",
+    "productType": "Mobiles",
+    "rating": 4,
+    "addedDate": "2022-04-10T14:15:00Z"
+  },
+  {
+    "id": 5,
+    "productName": "Xiaomi Mi 12",
+    "description": "A flagship Xiaomi smartphone with a Snapdragon 888 chipset and a vibrant AMOLED display.",
+    "price": 799.99,
+    "imageUrl": "assets/products/xiaomi12.png",
+    "manufacturer": "Xiaomi",
+    "productType": "Mobiles",
+    "rating": 4.7,
+    "addedDate": "2023-02-05T12:30:00Z"
+  },
+  {
+    "id": 6,
+    "productName": "Samsung Galaxy Note 20 Ultra",
+    "description": "A high-end phablet from Samsung with an S Pen, powerful performance, and a stunning Dynamic AMOLED display.",
+    "price": 1099.99,
+    "imageUrl": "assets/products/samsungnote20.jpeg",
+    "manufacturer": "Samsung",
+    "productType": "Mobiles",
+    "rating": 4.8,
+    "addedDate": "2020-08-15T14:00:00Z"
+  },
+  {
+    "id": 7,
+    "productName": "OnePlus Nord",
+    "description": "A mid-range OnePlus smartphone with 5G capabilities, sleek design, and a smooth OxygenOS experience.",
+    "price": 499.99,
+    "imageUrl": "assets/products/OneplusNord3.jpg",
+    "manufacturer": "OnePlus",
+    "productType": "Mobiles",
+    "rating": 4.6,
+    "addedDate": "2020-07-10T16:45:00Z"
+  },
+  {
+    "id": 8,
+    "productName": "Sony Xperia 2",
+    "description": "A flagship Sony smartphone with a 4K OLED display, advanced camera features, and Snapdragon 865 chipset.",
+    "price": 999.99,
+    "imageUrl": "assets/products/Xperia2.jpg",
+    "manufacturer": "Sony",
+    "productType": "Mobiles",
+    "rating": 4.5,
+    "addedDate": "2022-11-01T18:20:00Z"
+  },
+  {
+    "id": 9,
+    "productName": "LG Velvet",
+    "description": "A stylish LG smartphone with a unique design, Snapdragon 765G processor, and a focus on multimedia experience.",
+    "price": 699.99,
+    "imageUrl": "assets/products/LgVelvet.jpg",
+    "manufacturer": "LG",
+    "productType": "Mobiles",
+    "rating": 3.5,
+    "addedDate": "2020-05-05T20:10:00Z"
+  },
+  {
+    "id": 10,
+    "productName": "Huawei P50 Pro",
+    "description": "A flagship Huawei smartphone with a powerful Kirin 990 processor, Leica quad-camera system, and impressive AI capabilities.",
+    "price": 899.99,
+    "imageUrl": "assets/products/HuaweiP50.jpeg",
+    "manufacturer": "Huawei",
+    "productType": "Mobiles",
+    "rating": 4,
+    "addedDate": "2022-03-20T22:05:00Z"
+  },
+
+  {
+    "id": 11,
+    "productName": "iPad Pro (2021)",
+    "description": "Apple's high-performance tablet with M1 chip, ProMotion display, and versatile accessories.",
+    "price": 999.99,
+    "imageUrl": "assets/products/IpadPro.jpg",
+    "manufacturer": "Apple",
+    "productType": "Tablet",
+    "rating": 4.9,
+    "addedDate": "2022-04-20T10:00:00Z"
+  },
+  {
+    "id": 12,
+    "productName": "Samsung Galaxy Tab S8",
+    "description": "A premium Android tablet with Super AMOLED display, S Pen support, and powerful Snapdragon 865+ processor.",
+    "price": 849.99,
+    "imageUrl": "assets/products/SamsungTab8.jpg",
+    "manufacturer": "Samsung",
+    "productType": "Tablet",
+    "rating": 4.8,
+    "addedDate": "2021-09-05T09:30:00Z"
+  },
+  {
+    "id": 13,
+    "productName": "Microsoft Surface Pro 7",
+    "description": "A versatile 2-in-1 tablet with Windows 10, Intel Core processors, and a detachable keyboard.",
+    "price": 799.99,
+    "imageUrl": "assets/products/Surface7.jpg",
+    "manufacturer": "Microsoft",
+    "productType": "Tablet",
+    "rating": 4.7,
+    "addedDate": "2019-10-15T11:45:00Z"
+  },
+  {
+    "id": 14,
+    "productName": "Huawei MatePad Pro",
+    "description": "A high-end Huawei tablet with Kirin 990 chipset, large display, and stylus support.",
+    "price": 899.99,
+    "imageUrl": "assets/products/HUAWEIPad.jpg",
+    "manufacturer": "Huawei",
+    "productType": "Tablet",
+    "rating": 4.6,
+    "addedDate": "2020-04-10T14:15:00Z"
+  },
+  {
+    "id": 15,
+    "productName": "Amazon Fire HD 10",
+    "description": "An affordable Amazon tablet with a Full HD display, Alexa integration, and access to Amazon services.",
+    "price": 149.99,
+    "imageUrl": "assets/products/AmazonFire.jpg",
+    "manufacturer": "Amazon",
+    "productType": "Tablet",
+    "rating": 3.5,
+    "addedDate": "2020-02-25T16:30:00Z"
+  },
+  {
+    "id": 16,
+    "productName": "Lenovo Tab P12 Pro",
+    "description": "A premium Android tablet by Lenovo with OLED display, powerful processing, and optional keyboard attachment.",
+    "price": 699.99,
+    "imageUrl": "assets/products/LenovoTabP12Pro.jpg",
+    "manufacturer": "Lenovo",
+    "productType": "Tablet",
+    "rating": 4,
+    "addedDate": "2022-01-15T12:00:00Z"
+  },
+  {
+    "id": 17,
+    "productName": "Google Pixel Slate",
+    "description": "A Google tablet with Chrome OS, high-resolution display, and detachable keyboard for productivity.",
+    "price": 799.99,
+    "imageUrl": "assets/products/GooglePixelSlate.jpg",
+    "manufacturer": "Google",
+    "productType": "Tablet",
+    "rating": 4,
+    "addedDate": "2019-12-05T09:30:00Z"
+  },
+  {
+    "id": 18,
+    "productName": "Realme Pad",
+    "description": "A Realme tablet with Triluminos display, Xperia UI, and sleek design for multimedia and entertainment.",
+    "price": 599.99,
+    "imageUrl": "assets/products/RealmePad.jpg",
+    "manufacturer": "Realme",
+    "productType": "Tablet",
+    "rating": 3.8,
+    "addedDate": "2022-11-20T11:45:00Z"
+  },
+  {
+    "id": 19,
+    "productName": "Lenovo Yoga Pad",
+    "description": "An affordable Lenovo tablet with a large display, quad speakers, and family-friendly features.",
+    "price": 249.99,
+    "imageUrl": "assets/products/LenovoYogaPad.jpg",
+    "manufacturer": "Lenovo",
+    "productType": "Tablet",
+    "rating": 4.4,
+    "addedDate": "2020-08-10T14:15:00Z"
+  },
+  {
+    "id": 20,
+    "productName": "Xiaomi Pad 5",
+    "description": "An e-reader tablet by Xiaomi with a high-resolution display, waterproof design, and adjustable warm light.",
+    "price": 279.99,
+    "imageUrl": "assets/products/mipad5.jpg",
+    "manufacturer": "Xiaomi",
+    "productType": "Tablet",
+    "rating": 4.7,
+    "addedDate": "2022-05-01T16:30:00Z"
+  }
+]

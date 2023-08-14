@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+$activeColor: lightgray;
+$textColor: black;
+
+.activeLink {
+  background-color: $activeColor;
+  color: $textColor !important;
+}

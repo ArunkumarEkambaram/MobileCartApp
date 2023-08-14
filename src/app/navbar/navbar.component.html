@@ -1,44 +1,30 @@
 <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Mobile Cart</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarColor02"
-      aria-controls="navbarColor02"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" [routerLink]="['']"
-            >Home
+          <a class="nav-link active" [routerLinkActive]="'activeLink'" [routerLinkActiveOptions]="{exact:true}"
+            [routerLink]="['home']">Home
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mobiles</a>
+          <a class="nav-link" [routerLinkActive]="'activeLink'" [routerLink]="['/products']">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Tablets</a>
+          <a class="nav-link" [routerLinkActive]="'activeLink'" [routerLink]="['/about']">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLinkActive]="'activeLink'" [routerLink]="['/contact']">Contact Us</a>
         </li>
       </ul>
-      <a
-        [routerLink]="['login']"
-        class="btn btn-primary btn-sm me-2"
-        type="submit"
-        >Login</a
-      >
-      <a
-        [routerLink]="['register']"
-        class="btn btn-primary btn-sm"
-        type="submit"
-        >Register</a
-      >
+      <a [routerLink]="['login']" class="btn btn-primary btn-sm me-2" type="submit">Login</a>
+      <a [routerLink]="['register']" class="btn btn-primary btn-sm" type="submit">Register</a>
     </div>
   </div>
 </nav>

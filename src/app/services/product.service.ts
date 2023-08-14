@@ -1,7 +1,7 @@
 import { Product } from 'src/app/models/product';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, map, find, filter } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -24,6 +24,12 @@ export class ProductService {
 
   getAllProducts(): Observable<Product[]> {
     // return this.products;
-    return this.http.get<Product[]>("dataSource/product.json");
+    //return this.http.get<Product[]>("dataSource/product.json");
+    return this.http.get<Product[]>("dataSource/products.json");
+  }
+
+  getProductById(id: number): Observable<Product | undefined> {
+    return this.getAllProducts().pipe(
+      map(p => p.find(x => x.id === id)));
   }
 }
